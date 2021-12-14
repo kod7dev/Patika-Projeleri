@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* --------------------------------- Global --------------------------------- */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* --------------------------------- Header --------------------------------- */
+header.header {
+  background-color: beige;
+}
+
+header.header h1 {
+  font-weight: 400;
+  padding: 25px 0 0 0;
+}
+
+.lead-head {
+  font-weight: 900;
+  color: brown;
+}
+
+.header .nav {
+  padding: 10px 0;
+}
+
+.header .nav .nav-link {
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: black;
+}
+
+.header .nav .nav-link:hover {
+  border-bottom: 3px solid brown;
+  font-weight: bold;
+}
+
+/* ---------------------------------- Main ---------------------------------- */
+section[class^="section"] {
+  padding: 25px 0;
+}
+
+section[class^="section"] h2 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+section[class^="section"] h3 {
+  padding: 16px 0 8px 0;
+}
+
+section[class^="section"] article {
+  float: left;
+  padding-bottom: 15px;
+}
+
+section[class^="section"]::after {
+  content: "";
+  clear: both;
+  display: table;
+}
