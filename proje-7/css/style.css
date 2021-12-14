@@ -1,0 +1,37 @@
+.clearfix {
+    clear: both;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul {
+    background-color: #70CCC2;
+    float: left;
+    width: 33%;
+    margin: 0;
+    padding: 15px 0;
+    height: 150px;
+}
+
+footer ul:first-of-type {
+    background-color: #7EE5DA;
+}
+
+footer ul:last-of-type {
+    background-color: #62B3AA;
+}
